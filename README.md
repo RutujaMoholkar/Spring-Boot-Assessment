@@ -37,6 +37,6 @@ The following API endpoints are available:
 + **PUT /pets/{id}:** Update an existing pet record.
 + **DELETE /pets/{id}:** Delete a pet record by ID.
   
-### Contributing
+## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
-### Happy coding! 🚀
+## Happy coding! 🚀
