@@ -2,7 +2,7 @@
 The Pet Management System is a Spring Boot application that allows users to perform CRUD operations to manage pet records stored in an H2 database.
 
 
-# Components :-
+## Components :-
 + **controller/:** Contains the PetController class responsible for handling incoming HTTP requests and delegating to the appropriate service methods.
 + **model/:** Defines the Pet class representing the structure of a pet record.
 + **repository/:** Includes the PetRepository interface for database operations.
@@ -11,7 +11,7 @@ The Pet Management System is a Spring Boot application that allows users to perf
 + **PetManagementSystemApplication.java:** The main class to start the Spring Boot application.
 + **resources/:** Contains application properties and static resources.
 
-# Usage :-
+## Usage :-
 To run the Pet Management System:
 
 1. Ensure you have Java and Maven installed on your system.
@@ -20,7 +20,7 @@ To run the Pet Management System:
 4. Run mvn spring-boot:run to start the application.
 5. Access the application at http://localhost:8080.
    
-# Dependencies :-
+## Dependencies :-
 This project requires the following dependencies:
 
 1. Spring Boot
@@ -28,7 +28,7 @@ This project requires the following dependencies:
 3. Spring Web
 These dependencies are managed using Maven.
 
-# API Endpoints :-
+## API Endpoints :-
 The following API endpoints are available:
 
 + **GET /pets:** Get all pet records.
