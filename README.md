@@ -30,6 +30,8 @@ pet-management-system/
 │   └── test/
 └── pom.xml
 
+
+
 # Components :-
 + controller/: Contains the PetController class responsible for handling incoming HTTP requests and delegating to the appropriate service methods.
 + model/: Defines the Pet class representing the structure of a pet record.
@@ -44,19 +46,19 @@ pet-management-system/
 # Dependencies :-
 This project requires the following dependencies:
 
-+ Spring Boot
-+ H2 Database
-+ Spring Web
+1. Spring Boot
+2. H2 Database
+3. Spring Web
 These dependencies are managed using Maven.
 
 # API Endpoints :-
 The following API endpoints are available:
 
-+ GET /pets: Get all pet records.
-+ GET /pets/{id}: Get a pet record by ID.
-+ POST /pets: Add a new pet record.
-+ PUT /pets/{id}: Update an existing pet record.
-+ DELETE /pets/{id}: Delete a pet record by ID.
++ **GET /pets:** Get all pet records.
++ **GET /pets/{id}:** Get a pet record by ID.
++ **POST /pets:** Add a new pet record.
++ **PUT /pets/{id}:** Update an existing pet record.
++ **DELETE /pets/{id}:** Delete a pet record by ID.
   
 ### Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
