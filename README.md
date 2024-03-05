@@ -1,6 +1,7 @@
 # Pet Management System
 The Pet Management System is a Spring Boot application that allows users to perform CRUD operations to manage pet records stored in an H2 database.
 
+***
 
 ### Components :-
 + **controller/:** Contains the PetController class responsible for handling incoming HTTP requests and delegating to the appropriate service methods.
